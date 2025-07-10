@@ -4,7 +4,7 @@ public class DropEnemy extends Enemy{
 	public DropEnemy (double x, double y, double vx, double vy) {
 		// TODO 自動生成されたメソッド・スタブ
 		super(x,y,vx,vy);
-		life=1;
+		life=0+GameWorld.stage;
 	}
 	public void move() {
 		super.move();
