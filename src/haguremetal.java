@@ -4,7 +4,7 @@ public class haguremetal extends Enemy{
 	public haguremetal(double x, double y, double vx, double vy) {
 		// TODO 自動生成されたメソッド・スタブ
 		super(x,y,vx,vy); 
-		life=4+GameWorld.stage;
+		life=4;
 		score=10050;
 	}
 	public void move() {
